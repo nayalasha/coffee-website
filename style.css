@@ -16,3 +16,15 @@
     width: 300px;
     height: auto;
 }
+header {
+    background-color: #3f5433;
+    padding: 20px;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #3f5433;
+    padding: 20px;
+    text-align: center;
+}
