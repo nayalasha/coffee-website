@@ -74,14 +74,18 @@ footer a:hover {
     background: #4e342e;
 }
 
-.navbar a {
+.navbar button {
     color: white;
     margin-left: 25px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
 }
 
-.navbar a:hover {
+.navbar button:hover {
     color: #ffcc80;
 }
 .button {
