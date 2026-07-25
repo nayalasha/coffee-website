@@ -150,6 +150,15 @@ body {
     size: 200px;
 }
 
-#p789{
-    size: 200px;
+
+#p789 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#p785 {
+    size: 50cap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
