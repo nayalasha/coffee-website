@@ -4,6 +4,9 @@ body {
     background: #f8f5f0;
     color: #333;
 }
+h2{
+    color: #8d6e63;
+}
 
 .hero {
     background: linear-gradient(135deg, #5d4037, #8d6e63);
@@ -125,6 +128,7 @@ body {
 #o3{
     width: 400px;
     height: 300px;
+    
 }
 #o4{
     width: 300px;
@@ -135,8 +139,17 @@ body {
     height: 300px;
 }
 
+
 #menu {
     font-size: 2rem;
     
     font-display: block;
+}
+
+#p78{
+    size: 200px;
+}
+
+#p789{
+    size: 200px;
 }
