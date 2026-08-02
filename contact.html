@@ -26,6 +26,34 @@
     <h2>Small Coffee Shop in Mississauga</h2>
 
     <header class="hero">
+
+        <section class="contact-section">
+    <h3>Contact Us</h3>
+    <form id="contact-form" novalidate>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required placeholder="Your full name">
+            <span class="error-message" id="name-error"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="your.email@example.com">
+            <span class="error-message" id="email-error"></span>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required placeholder="How can we help you?"></textarea>
+            <span class="error-message" id="message-error"></span>
+        </div>
+
+        <button type="submit" class="button">Send Message</button>
+    </form>
+
+    <!-- Hidden response message container -->
+    <div id="form-response" class="hidden"></div>
+</section>
     
    
 

@@ -157,8 +157,46 @@ body {
     margin: 0;
 }
 #p785 {
-    size: 50cap;
+    
     list-style: none;
     padding: 0;
     margin: 0;
+}
+/* Container sizing */
+.contact-section {
+    max-width: 600px; /* Expands the overall form card width */
+    margin: 40px auto;
+    padding: 30px;
+}
+
+/* Label styling */
+.form-group label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+/* Inputs and Textarea sizing */
+.form-group input, 
+.form-group textarea {
+    width: 100%;             /* Fills the container width */
+    padding: 14px 16px;      /* Increases internal spacing (height and sides) */
+    font-size: 1.1rem;        /* Makes the typed text bigger */
+    border: 2px solid #ccc;  /* Slightly thicker border for clarity */
+    border-radius: 8px;      /* Smoother rounded corners */
+    box-sizing: border-box; /* Prevents overflow beyond container */
+    transition: border-color 0.3s ease;
+}
+
+/* Give the message box extra height */
+.form-group textarea {
+    min-height: 150px;       /* Sets a larger height for the message field */
+    resize: vertical;        /* Allows vertical resizing only */
+}
+
+/* Focus state for active typing */
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: #8d6e63;  /* Matches your brand's coffee theme header color */
 }
